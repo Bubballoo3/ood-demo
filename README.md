@@ -23,8 +23,13 @@ for proxying and shell access as both rely on allowlists which have been preconf
 docker pull openondemand/open-ondemand-demo:latest
 docker run --rm -p 8080:8080 -h ood.demo openondemand/open-ondemand-demo:latest
 ```
+or 
+```
+podman pull docker.io/openondemand/open-ondemand-demo:latest
+podman run --rm -p 8080:8080 -h ood.demo --privileged docker.io/openondemand/open-ondemand-demo:latest
+```
 
-## Loggin in
+## Logging in
 
 Once the container is started, it will be accessible at `http://localhost:8080`.
 
