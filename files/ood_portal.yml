@@ -11,7 +11,7 @@ dex:
     userID: 7e3146ab-83fb-4642-ad0d-3120a76bfd9a
   frontend:
     extra:
-      loginLogo: '/public/login.png'
+      loginLogo: '../../theme/logo.png'
 
 rnode_uri: '/rnode'
 node_uri: '/node'
